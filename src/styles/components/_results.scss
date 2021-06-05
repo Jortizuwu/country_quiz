@@ -1,0 +1,31 @@
+.results__img,
+.results__img img {
+  width: 200px;
+  height: 200px;
+}
+
+.results__title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.results__points {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $correct;
+}
+
+.btn-again {
+  border: 1px solid #c0bebea8;
+  width: 100%;
+  font-weight: 500;
+
+  &:hover {
+    background-color: $primary;
+    color: $white;
+  }
+
+  // &:focus{
+  //     outline: none;
+  // }
+}
