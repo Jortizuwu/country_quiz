@@ -17,7 +17,7 @@ export const fetchCityFail = (error) => {
 export const fetchApi = () => {
   return async (dispatch) => {
     try {
-      const url = `https://restcountries.eu/rest/v2/all`;
+      const url = `http://api.countrylayer.com/v2/all?access_key=201810d8d29102d389ce69d4d24f54d4`;
       const data = await fetch(url);
       const resp = await data.json();
       dispatch(fetchCitySuccess(resp));
